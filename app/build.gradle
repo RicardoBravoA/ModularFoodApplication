@@ -24,7 +24,7 @@ android {
         targetCompatibility 1.8
     }
 
-    dynamicFeatures = [":map"]
+    //dynamicFeatures = [":map"]
 
 }
 
@@ -43,10 +43,8 @@ dependencies {
     implementation "com.squareup.picasso:picasso:2.71828"
     api "com.google.android.gms:play-services:12.0.1"
 
-    api project(path: ':navigation')
-    api project(path: ':model')
-    api project(path: ':util')
-    api project(path: ':mapd')
-    api project(path: ':detaild')
+    api 'com.github.RicardoBravoA:ModularFoodNavigation:0.0.1'
+    api 'com.github.RicardoBravoA:ModularFoodMapD:0.0.1'
+    api 'com.github.RicardoBravoA:ModularFoodDetailD:0.0.1'
 
 }
