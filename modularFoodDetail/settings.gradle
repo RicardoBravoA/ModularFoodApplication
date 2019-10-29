@@ -1,0 +1,4 @@
+include ':app', ':detail', ':modularFoodMap:map'
+project(":app").projectDir = file("../ModularFoodApplication/app")
+project(":modularFoodMap:map").projectDir = file("../ModularFoodMap/map")
+rootProject.name='ModularFoodDetail'
