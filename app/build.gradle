@@ -24,7 +24,7 @@ android {
         targetCompatibility 1.8
     }
 
-    dynamicFeatures = [":modularFoodMap:map"]
+    dynamicFeatures = [":modularFoodMap:map", ":modularFoodDetail:detail"]
 
 }
 

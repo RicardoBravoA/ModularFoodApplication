@@ -1,2 +1,2 @@
-include ':app', ':modularFoodMap:map'
+include ':app', ':modularFoodMap:map', ':modularFoodDetail:detail'
 rootProject.name='ModularFoodApp'
